@@ -1,60 +1,99 @@
 <!DOCTYPE html>
 <html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>David Hume</title>
-    <!-- Ensures proper rendering and touch zooming -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <!-- Provides a responsive, fixed-width container. Needed as outermost wrapper in order for Bootstrap grid system to work correctly -->
-    <div class="container">
-      <!-- Big grey box for calling extra attention to content -->
-      <div class="jumbotron">
-        <div class="row">
-          <!-- Renders full 12-column width on all screen widths, from xs to lg -->
-          <div class="col-xs-12">
-            <h1  class="text-center">David Hume</h1>
-            <h3 class="text-center">Scottish Enlightenment Philosopher, Historian, Economist, Essayist</h3>
-            <div class="thumbnail"><img src="https://cdn.theatlantic.com/assets/media/img/2015/09/03/BOB_Essay_Opener_WEBCrop/1920.jpg?1441298243">
-              <div class="caption text-center">"Portrait of David Hume," 1754, by Allan Ramsay</div>
+<head>
+  <meta charset="UTF-8">
+  <title>David Hume</title>
+  <!-- Ensures proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- Provides a responsive, fixed-width container. Needed as outermost wrapper in order for Bootstrap grid system to work correctly -->
+  <div class="container">
+    <!-- Big grey box for calling extra attention to content -->
+    <div class="jumbotron">
+
+      <div class="text-center">
+        <h1>David Hume</h1>
+        <h4>Scottish Enlightenment Philosopher, Historian, Economist, Essayist</h4>
+        <div class="thumbnail">
+          <img src="https://cdn.theatlantic.com/assets/media/img/2015/09/03/BOB_Essay_Opener_WEBCrop/1920.jpg?1441298243" alt="Portrait of David Hume">
+          <div class="caption">"Portrait of David Hume," 1754, by Allan Ramsay</div>
+        </div>
+      </div> <!-- End of text-center div -->
+
+      <blockquote>
+      <p>A wise man proportions his belief to the evidence.</p>
+      <footer class="blockquote-footer"><cite>David Hume</cite></footer>
+      </blockquote>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          <h4 class="text-center">A brief timeline in events of David Hume's life:</h4>
+          <ul>
+            <li><strong>1711</strong> – Born as David Home in Edinburgh, Scotland</li>
+            <li><strong>1713</strong> – Father dies</li>
+            <li><strong>1723</strong> – Enrolls at University of Edinburgh at the age of 12 (14 was typical)</li>
+            <li><strong>1734</strong> – Changes surname to Hume</li>
+            <li><strong>1739</strong> – Publishes Books 1 and 2 of <em>A Treatise on Human Nature</em></li>
+            <li><strong>1748</strong> – Publishes <em>An Enquiry Concerning Human Understanding</em></li>
+            <li><strong>1751</strong> – Publishes <em>An Enquiry Concerning the Principles of Morals</em></li>
+            <li><strong>1776</strong> – Dies at the age of 65</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="text-center">Works</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row text-center">
+
+            <div class="col-md-6">
+            <h5>An Enquiry Concerning Human Understanding</h5>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51RE8VsWyGL.jpg" alt="An Enquiry Concerning Human Understanding">
+            <br><br>
+            <h5>An Enquiry Concerning Human Understanding</h5>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51RE8VsWyGL.jpg" alt="An Enquiry Concerning Human Understanding">
             </div>
-            <!-- Spans full width of column on mobile phones, five-sixths of a screen on tablets, two-thirds of medium screens (some desktops). 'col-sm-offset-1' increases left margin by 1 column on tablets, and 'col-md-offset-2' increases left margin by 3 columns on medium screens -->
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-3">
-              <blockquote>
-                <p>A wise man proportions his belief to the evidence.</p>
-                <cite>David Hume</cite>
-              </blockquote>
-              <h4>A brief timeline in events of David Hume's life:</h4>
-              <ul>
-                <li><strong>1711</strong> – Born as David Home in Edinburgh, Scotland</li>
-                <li><strong>1713</strong> – Father dies</li>
-                <li><strong>1723</strong> – Enrolls at University of Edinburgh at the age of 12 (14 was typical)</li>
-                <li><strong>1734</strong> – Changes surname to Hume</li>
-                <li><strong>1739</strong> – Publishes Books 1 and 2 of <em>A Treatise on Human Nature</em></li>
-                <li><strong>1748</strong> – Publishes <em>An Enquiry Concerning Human Understanding</em></li>
-                <li><strong>1751</strong> – Publishes <em>An Enquiry Concerning the Principles of Morals</em></li>
-                <li><strong>1776</strong> – Dies at the age of 65</li>
-              </ul>
-              <blockquote>
-                <p>Were it not for his infidel writings, every body would love him.</p>
-                <cite>James Boswell</cite>
-              </blockquote>
-              <h4>Learn more on <a href="https://en.wikipedia.org/wiki/David_Hume" target="_blank">Wikipedia</a>.</h4>
+
+            <div class="col-md-6">
+            <h5>Dialogues Concerning Natural Religion</h5>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51RE8VsWyGL.jpg" alt="Dialogues Concerning Natural Religion">
+            <br><br>
+            <h5>An Enquiry Concerning Human Understanding</h5>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51RE8VsWyGL.jpg" alt="An Enquiry Concerning Human Understanding">
             </div>
+
           </div>
         </div>
       </div>
-      <footer class="text-center">
-        <hr>
-        <p>Written and coded by <a href="https://www.linkedin.com/in/natalie-cardot/" target="_blank">Natalie Cardot</a></p>
-      </footer>
+
+      <div class="row">
+        <div class="col-xs-12">
+            <blockquote>
+            <p>Were it not for his infidel writings, every body would love him.</p>
+            <footer class="blockquote-footer"><cite>James Boswell</cite></footer>
+            </blockquote>
+
+            <h4 class="text-center">Learn more on <a href="https://en.wikipedia.org/wiki/David_Hume" target="_blank">Wikipedia</a>.</h4>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </body>
+
+    <footer class="text-center">
+    <hr>
+    <p>Written and coded by <a href="https://www.linkedin.com/in/natalie-cardot/" target="_blank">Natalie Cardot</a></p>
+    </footer>
+
+  </div>
+</body>
 </html>

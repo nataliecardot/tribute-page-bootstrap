@@ -11,6 +11,15 @@ img {
   width: 90%;
 }
 
+.panel img {
+  height: 400px;
+  width: auto;
+}
+
+.panel h4 {
+  /* font-size: 10px; */
+}
+
 blockquote {
   font-family: Georgia, serif;
   font-size: 18px;
@@ -19,7 +28,7 @@ blockquote {
   margin: 3em 0;
   padding: 0.35em 40px;
   line-height: 1.45;
-  position: relative;]
+  position: relative;
   color: #383838;
 }
 
@@ -28,6 +37,7 @@ blockquote:before {
   padding-left: 10px;
   content: "\201C";
   font-size: 80px;
+  /* An element with position: absolute; is positioned relative to the nearest positioned ancestor, which is probably the blockquote */
   position: absolute;
   /* Offsets from the edges of element's containing block, ancestor to which the element is relatively positioned */
   left: -20px; /* Negative moves it left */
@@ -38,10 +48,11 @@ blockquote:before {
 blockquote cite {
   color: #999;
   font-size: 14px;
-  display: block;
   margin-top: 5px;
 }
 
-blockquote cite:before {
-  content: "\2014 \2009";
+ul {
+  /* To match margin above ul created by blockquote */
+  margin-bottom: 3em;
+  list-style: none;
 }
