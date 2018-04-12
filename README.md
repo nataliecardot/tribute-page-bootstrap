@@ -1,3 +1,3 @@
 #tribute-page-bootstrapcdn
 
-A tribute page utilizing Bootstrap, with a focus on its 12-column grid system. 
+A simple tribute page utilizing Bootstrap.
