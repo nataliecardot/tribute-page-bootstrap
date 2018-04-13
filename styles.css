@@ -21,6 +21,17 @@ img.works {
   width: auto;
 }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 blockquote {
   text-align: left;
   /* text-align: center (applied to .jumbotron) requires an element to be inline or contain text as direct child descendant to be functional. Since blockquote's text is inside block-level elements <p> and <footer>, setting it to display: inline-block is a workaround. Note also block is needed for top/bottom margins to appear */
