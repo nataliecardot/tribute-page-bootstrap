@@ -1,3 +1,3 @@
 #tribute-page-bootstrap
 
-A simple tribute page utilizing Bootstrap.
+A simple tribute page (to David Hume) utilizing Bootstrap 4.
